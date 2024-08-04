@@ -17,6 +17,7 @@
 		911412332C40126500FBCC91 /* FirstTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911412322C40126500FBCC91 /* FirstTestUITests.swift */; };
 		911412352C40126500FBCC91 /* FirstTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911412342C40126500FBCC91 /* FirstTestUITestsLaunchTests.swift */; };
 		915E29D52C5FBA5F00D8D3E3 /* MyFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915E29D42C5FBA5F00D8D3E3 /* MyFunction.swift */; };
+		915E29D82C5FC1D500D8D3E3 /* MyEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915E29D72C5FC1D500D8D3E3 /* MyEnum.swift */; };
 		91C6DC062C5F4CD3000708BC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 91C6DC052C5F4CD3000708BC /* .gitignore */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		911412322C40126500FBCC91 /* FirstTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTestUITests.swift; sourceTree = "<group>"; };
 		911412342C40126500FBCC91 /* FirstTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		915E29D42C5FBA5F00D8D3E3 /* MyFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFunction.swift; sourceTree = "<group>"; };
+		915E29D72C5FC1D500D8D3E3 /* MyEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyEnum.swift; sourceTree = "<group>"; };
 		91C6DC052C5F4CD3000708BC /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +106,7 @@
 		911412102C40126500FBCC91 /* FirstTest */ = {
 			isa = PBXGroup;
 			children = (
+				915E29D62C5FC1C500D8D3E3 /* Enumm */,
 				915E29D32C5FB9F700D8D3E3 /* Func */,
 				911412112C40126500FBCC91 /* FirstTestApp.swift */,
 				911412132C40126500FBCC91 /* Persistence.swift */,
@@ -147,6 +150,14 @@
 				915E29D42C5FBA5F00D8D3E3 /* MyFunction.swift */,
 			);
 			path = Func;
+			sourceTree = "<group>";
+		};
+		915E29D62C5FC1C500D8D3E3 /* Enumm */ = {
+			isa = PBXGroup;
+			children = (
+				915E29D72C5FC1D500D8D3E3 /* MyEnum.swift */,
+			);
+			path = Enumm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,6 +293,7 @@
 			files = (
 				911412122C40126500FBCC91 /* FirstTestApp.swift in Sources */,
 				911412142C40126500FBCC91 /* Persistence.swift in Sources */,
+				915E29D82C5FC1D500D8D3E3 /* MyEnum.swift in Sources */,
 				915E29D52C5FBA5F00D8D3E3 /* MyFunction.swift in Sources */,
 				911412192C40126500FBCC91 /* ContentView.swift in Sources */,
 				911412172C40126500FBCC91 /* FirstTest.xcdatamodeld in Sources */,
