@@ -19,6 +19,7 @@
 		915E29D52C5FBA5F00D8D3E3 /* MyFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915E29D42C5FBA5F00D8D3E3 /* MyFunction.swift */; };
 		915E29D82C5FC1D500D8D3E3 /* MyEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915E29D72C5FC1D500D8D3E3 /* MyEnum.swift */; };
 		915E29DA2C5FC5C500D8D3E3 /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915E29D92C5FC5C500D8D3E3 /* Switch.swift */; };
+		915E29DD2C5FCA4400D8D3E3 /* Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915E29DC2C5FCA4400D8D3E3 /* Practice.swift */; };
 		91C6DC062C5F4CD3000708BC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 91C6DC052C5F4CD3000708BC /* .gitignore */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		915E29D42C5FBA5F00D8D3E3 /* MyFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFunction.swift; sourceTree = "<group>"; };
 		915E29D72C5FC1D500D8D3E3 /* MyEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyEnum.swift; sourceTree = "<group>"; };
 		915E29D92C5FC5C500D8D3E3 /* Switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switch.swift; sourceTree = "<group>"; };
+		915E29DC2C5FCA4400D8D3E3 /* Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice.swift; sourceTree = "<group>"; };
 		91C6DC052C5F4CD3000708BC /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,6 +110,7 @@
 		911412102C40126500FBCC91 /* FirstTest */ = {
 			isa = PBXGroup;
 			children = (
+				915E29DB2C5FCA1700D8D3E3 /* Practice */,
 				915E29D62C5FC1C500D8D3E3 /* Enumm */,
 				915E29D32C5FB9F700D8D3E3 /* Func */,
 				911412112C40126500FBCC91 /* FirstTestApp.swift */,
@@ -161,6 +164,14 @@
 				915E29D92C5FC5C500D8D3E3 /* Switch.swift */,
 			);
 			path = Enumm;
+			sourceTree = "<group>";
+		};
+		915E29DB2C5FCA1700D8D3E3 /* Practice */ = {
+			isa = PBXGroup;
+			children = (
+				915E29DC2C5FCA4400D8D3E3 /* Practice.swift */,
+			);
+			path = Practice;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,6 +309,7 @@
 				911412142C40126500FBCC91 /* Persistence.swift in Sources */,
 				915E29D82C5FC1D500D8D3E3 /* MyEnum.swift in Sources */,
 				915E29D52C5FBA5F00D8D3E3 /* MyFunction.swift in Sources */,
+				915E29DD2C5FCA4400D8D3E3 /* Practice.swift in Sources */,
 				911412192C40126500FBCC91 /* ContentView.swift in Sources */,
 				911412172C40126500FBCC91 /* FirstTest.xcdatamodeld in Sources */,
 				915E29DA2C5FC5C500D8D3E3 /* Switch.swift in Sources */,
