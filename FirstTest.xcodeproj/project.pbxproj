@@ -18,6 +18,7 @@
 		911412352C40126500FBCC91 /* FirstTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911412342C40126500FBCC91 /* FirstTestUITestsLaunchTests.swift */; };
 		915E29D52C5FBA5F00D8D3E3 /* MyFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915E29D42C5FBA5F00D8D3E3 /* MyFunction.swift */; };
 		915E29D82C5FC1D500D8D3E3 /* MyEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915E29D72C5FC1D500D8D3E3 /* MyEnum.swift */; };
+		915E29DA2C5FC5C500D8D3E3 /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915E29D92C5FC5C500D8D3E3 /* Switch.swift */; };
 		91C6DC062C5F4CD3000708BC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 91C6DC052C5F4CD3000708BC /* .gitignore */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		911412342C40126500FBCC91 /* FirstTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		915E29D42C5FBA5F00D8D3E3 /* MyFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFunction.swift; sourceTree = "<group>"; };
 		915E29D72C5FC1D500D8D3E3 /* MyEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyEnum.swift; sourceTree = "<group>"; };
+		915E29D92C5FC5C500D8D3E3 /* Switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switch.swift; sourceTree = "<group>"; };
 		91C6DC052C5F4CD3000708BC /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				915E29D72C5FC1D500D8D3E3 /* MyEnum.swift */,
+				915E29D92C5FC5C500D8D3E3 /* Switch.swift */,
 			);
 			path = Enumm;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				915E29D52C5FBA5F00D8D3E3 /* MyFunction.swift in Sources */,
 				911412192C40126500FBCC91 /* ContentView.swift in Sources */,
 				911412172C40126500FBCC91 /* FirstTest.xcdatamodeld in Sources */,
+				915E29DA2C5FC5C500D8D3E3 /* Switch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
