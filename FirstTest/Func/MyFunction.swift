@@ -20,17 +20,17 @@ struct MyFunction: View {
             Button(action: {
                 // action 하면 toggle (즉, 값이 스위치가 되면서)
                 isChangedMind.toggle()
-                    
+                
                 // getMind 함수를 만들어서 사용하자
                 myMind = getMind(with: isChangedMind)
                 
                 // 아래 내용으로 함수를 만들어보자
-//                // isChangeMind 가 true 라면
-//                if isChangedMind {
-//                    myMind = "always open"
-//                } else { // 반대로 false 라면
-//                    myMind = "but closed"
-//                }
+                //                // isChangeMind 가 true 라면
+                //                if isChangedMind {
+                //                    myMind = "always open"
+                //                } else { // 반대로 false 라면
+                //                    myMind = "but closed"
+                //                }
                 
             }, label: {
                 Text("change")

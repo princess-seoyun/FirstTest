@@ -16,6 +16,7 @@
 		911412292C40126500FBCC91 /* FirstTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911412282C40126500FBCC91 /* FirstTestTests.swift */; };
 		911412332C40126500FBCC91 /* FirstTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911412322C40126500FBCC91 /* FirstTestUITests.swift */; };
 		911412352C40126500FBCC91 /* FirstTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911412342C40126500FBCC91 /* FirstTestUITestsLaunchTests.swift */; };
+		914E3C3A2C73830B00FC5E89 /* MyOptional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914E3C392C73830B00FC5E89 /* MyOptional.swift */; };
 		915E29D52C5FBA5F00D8D3E3 /* MyFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915E29D42C5FBA5F00D8D3E3 /* MyFunction.swift */; };
 		915E29D82C5FC1D500D8D3E3 /* MyEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915E29D72C5FC1D500D8D3E3 /* MyEnum.swift */; };
 		915E29DA2C5FC5C500D8D3E3 /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915E29D92C5FC5C500D8D3E3 /* Switch.swift */; };
@@ -54,6 +55,7 @@
 		9114122E2C40126500FBCC91 /* FirstTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		911412322C40126500FBCC91 /* FirstTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTestUITests.swift; sourceTree = "<group>"; };
 		911412342C40126500FBCC91 /* FirstTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		914E3C392C73830B00FC5E89 /* MyOptional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOptional.swift; sourceTree = "<group>"; };
 		915E29D42C5FBA5F00D8D3E3 /* MyFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFunction.swift; sourceTree = "<group>"; };
 		915E29D72C5FC1D500D8D3E3 /* MyEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyEnum.swift; sourceTree = "<group>"; };
 		915E29D92C5FC5C500D8D3E3 /* Switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switch.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 		911412102C40126500FBCC91 /* FirstTest */ = {
 			isa = PBXGroup;
 			children = (
+				914E3C382C7382FE00FC5E89 /* Option */,
 				915E29DB2C5FCA1700D8D3E3 /* Practice */,
 				915E29D62C5FC1C500D8D3E3 /* Enumm */,
 				915E29D32C5FB9F700D8D3E3 /* Func */,
@@ -147,6 +150,14 @@
 				911412342C40126500FBCC91 /* FirstTestUITestsLaunchTests.swift */,
 			);
 			path = FirstTestUITests;
+			sourceTree = "<group>";
+		};
+		914E3C382C7382FE00FC5E89 /* Option */ = {
+			isa = PBXGroup;
+			children = (
+				914E3C392C73830B00FC5E89 /* MyOptional.swift */,
+			);
+			path = Option;
 			sourceTree = "<group>";
 		};
 		915E29D32C5FB9F700D8D3E3 /* Func */ = {
@@ -312,6 +323,7 @@
 				915E29DD2C5FCA4400D8D3E3 /* Practice.swift in Sources */,
 				911412192C40126500FBCC91 /* ContentView.swift in Sources */,
 				911412172C40126500FBCC91 /* FirstTest.xcdatamodeld in Sources */,
+				914E3C3A2C73830B00FC5E89 /* MyOptional.swift in Sources */,
 				915E29DA2C5FC5C500D8D3E3 /* Switch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
