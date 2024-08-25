@@ -21,6 +21,7 @@
 		915E29D82C5FC1D500D8D3E3 /* MyEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915E29D72C5FC1D500D8D3E3 /* MyEnum.swift */; };
 		915E29DA2C5FC5C500D8D3E3 /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915E29D92C5FC5C500D8D3E3 /* Switch.swift */; };
 		915E29DD2C5FCA4400D8D3E3 /* Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915E29DC2C5FCA4400D8D3E3 /* Practice.swift */; };
+		9182A9A02C7B233100A3D69F /* MyClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9182A99F2C7B233100A3D69F /* MyClosure.swift */; };
 		91C6DC062C5F4CD3000708BC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 91C6DC052C5F4CD3000708BC /* .gitignore */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +61,7 @@
 		915E29D72C5FC1D500D8D3E3 /* MyEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyEnum.swift; sourceTree = "<group>"; };
 		915E29D92C5FC5C500D8D3E3 /* Switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switch.swift; sourceTree = "<group>"; };
 		915E29DC2C5FCA4400D8D3E3 /* Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice.swift; sourceTree = "<group>"; };
+		9182A99F2C7B233100A3D69F /* MyClosure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClosure.swift; sourceTree = "<group>"; };
 		91C6DC052C5F4CD3000708BC /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,6 +114,7 @@
 		911412102C40126500FBCC91 /* FirstTest */ = {
 			isa = PBXGroup;
 			children = (
+				9182A99E2C7B232300A3D69F /* Closure */,
 				914E3C382C7382FE00FC5E89 /* Option */,
 				915E29DB2C5FCA1700D8D3E3 /* Practice */,
 				915E29D62C5FC1C500D8D3E3 /* Enumm */,
@@ -183,6 +186,14 @@
 				915E29DC2C5FCA4400D8D3E3 /* Practice.swift */,
 			);
 			path = Practice;
+			sourceTree = "<group>";
+		};
+		9182A99E2C7B232300A3D69F /* Closure */ = {
+			isa = PBXGroup;
+			children = (
+				9182A99F2C7B233100A3D69F /* MyClosure.swift */,
+			);
+			path = Closure;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,6 +330,7 @@
 				911412122C40126500FBCC91 /* FirstTestApp.swift in Sources */,
 				911412142C40126500FBCC91 /* Persistence.swift in Sources */,
 				915E29D82C5FC1D500D8D3E3 /* MyEnum.swift in Sources */,
+				9182A9A02C7B233100A3D69F /* MyClosure.swift in Sources */,
 				915E29D52C5FBA5F00D8D3E3 /* MyFunction.swift in Sources */,
 				915E29DD2C5FCA4400D8D3E3 /* Practice.swift in Sources */,
 				911412192C40126500FBCC91 /* ContentView.swift in Sources */,
